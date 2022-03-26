@@ -1,0 +1,53 @@
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.col-2 {
+  width: 20%;
+}
+
+.col-9 {
+  width: 100%;
+}
+
+.quantity {
+  width: 60px;
+  height: 60px;
+  border: 1px solid silver;
+  cursor: pointer;
+  text-align: center;
+}
+
+.heading {
+  background: #f4f6f8;
+  padding: 10px;
+}
+.image img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.verticalAlign {
+  align-items: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 765px) {
+  .col-2 {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+  }
+  .col-9 {
+    width: 100%;
+  }
+  .heading {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .col-2 {
+    width: 100%;
+  }
+}

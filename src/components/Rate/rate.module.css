@@ -1,0 +1,9 @@
+.star-container {
+  display: flex;
+}
+.flex {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: 1rem 0;
+}
